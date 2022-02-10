@@ -1,0 +1,529 @@
+
+#gray_background{
+    width: 100%;
+    padding: 50px 20px 55px;
+    background-color: #f6f6f6;
+    /* height: auto; */
+    overflow:auto; 
+}
+#gray_background #background_wrap{
+    width: 1180px;
+    margin: 0 auto;
+}
+#gray_background #background_wrap .background_top{
+    overflow:auto; 
+
+}
+#gray_background #background_wrap .background_top>div{
+    width: 29.8%;
+    height: 320px;
+    float: left;
+}
+#gray_background #background_wrap .background_top>div:not(:first-child){
+    margin-left: 5.3%;
+}
+#gray_background #background_wrap .background_top .new_area{
+    background-color: #ef6266;
+    padding-top: 25px;
+    border-radius: 50px 20px 20px;
+}
+#gray_background #background_wrap .background_top .new_area>ul>li:not(:last-child){
+    border-bottom: 1px solid #f18f91;
+}
+#gray_background #background_wrap .background_top .new_area>ul>li>a{
+    height: 52px;
+    display: block;
+    line-height: 52px;
+    color: #fff;
+    padding-left: 40px;
+    margin-right: 40px;
+    font-size: 19px;
+    background-repeat: no-repeat;
+    background-position: right 12px;
+}
+#gray_background #background_wrap .background_top .new_area>ul>li:first-child>a{
+    background-image: url('https://www.nhis.or.kr/_res/nhis/nhis/img/icon/icon_news_area_01.png');
+}
+#gray_background #background_wrap .background_top .new_area>ul>li:nth-child(2)>a{
+    background-image: url('https://www.nhis.or.kr/_res/nhis/nhis/img/icon/icon_news_area_02.png');
+}
+#gray_background #background_wrap .background_top .new_area>ul>li:nth-child(3)>a{
+    background-image: url('https://www.nhis.or.kr/_res/nhis/nhis/img/icon/icon_news_area_03.png');
+}
+#gray_background #background_wrap .background_top .new_area>ul>li:nth-child(4)>a{
+    background-image: url('https://www.nhis.or.kr/_res/nhis/nhis/img/icon/icon_news_area_04.png');
+}
+#gray_background #background_wrap .background_top .new_area>ul>li:nth-child(5)>a{
+    background-image: url('https://www.nhis.or.kr/_res/nhis/nhis/img/icon/icon_news_area_05.png');
+}
+#gray_background #background_wrap .background_top .health_area{
+    border: 1px solid #e1e3e6;
+    background-color: #fff;
+    border-radius: 20px 60px 20px 20px;
+    padding: 35px 39px 0;
+}
+#gray_background #background_wrap .background_top .health_area .title{
+    font-size: 21px;
+    color: #3a3a4a;
+    margin-bottom: 23px;
+}
+#gray_background #background_wrap .background_top .health_area>ul>li{
+    border-bottom: 1px solid #f0edec;
+    position: relative;
+}
+#gray_background #background_wrap .background_top .health_area>ul>li:first-child{
+    border-top: 1px solid #f0edec;
+}
+#gray_background #background_wrap .background_top .health_area>ul>li>a{
+    height: 45px;
+    line-height: 45px;
+    color: #3a3a4a;
+    display: inline-block;
+    padding-right: 17px;
+    background-repeat: no-repeat;
+    background-position: right 16px;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/arrow-link.png');
+}
+#gray_background #background_wrap .background_top .health_area>ul>li>a .right{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+#gray_background #background_wrap .background_top .health_area>ul>li:first-child>a .right,
+#gray_background #background_wrap .background_top .health_area>ul>li:nth-child(4)>a .right{
+    right: 4px;
+}
+#gray_background #background_wrap .background_top .guarantee_area{
+    background-color: #2fa298;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/bg-guarantee.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 20px 20px 60px 20px;
+}
+#gray_background #background_wrap .background_top .guarantee_area>div{
+    width: 100%;
+    height: 50%;
+    padding: 35px 39px 0;
+}
+#gray_background #background_wrap .background_top .guarantee_area .guarantee_top{
+    border-bottom: 1px solid #82c7c1;
+}
+#gray_background #background_wrap .background_top .guarantee_area .title{
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#gray_background #background_wrap .background_top .guarantee_area p{
+    font-size: 15px;
+    color: #fff;
+    line-height: 26px;
+}
+#gray_background #background_wrap .background_health{
+    margin-top: 62px;
+}
+#gray_background #background_wrap .background_health .main_banner{
+    width: 64.9%;
+    margin-right: 5.3%;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/bg-notice.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px 50px 0;
+    height: 320px;
+    display: inline-block;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_top{
+    font-size: 19px;
+    line-height: 35px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_top .icon{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 19px;
+    /* float: left; */
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/ico-notice.png');
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_top .text{
+    display: inline-block;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_top .bottom{
+    font-size: 28px;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_bottom{
+    padding-top: 25px;
+    margin-top: 20px;
+    border-top: 1px solid #f7cc01;
+    text-align: center;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_bottom>ul>li{
+    position: relative;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_bottom>ul>li>a{
+    height: 32px;
+    font-size: 16px;
+    color: #3a3a4a;
+    display: inline-block;
+    letter-spacing: -1px;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_bottom>ul>li>a.ani{
+    font-size: 24px;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/bg-dummy.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: left 10px;
+    transition: .6s;
+    padding: 0 5px 0 10px;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_bottom>ul>li .banner_box{
+    width: 234px;
+    height: 74px;
+    position: absolute;
+    top: -85px;
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 19px 10px 0;
+    color: #fff;
+    text-align: center;
+    background-color: #44465c;
+    box-shadow: 2px 5px 14px 0 #777;
+    border-radius: 15px;
+    font-size: 1em;
+    display: none;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_bottom>ul>li .banner_box::after{
+    content: "";
+    position: absolute;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/edge-balloon.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 16px;
+    height: 8px;
+    bottom: -8px;
+    left: 110px;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_bottom>ul>li .banner_box span{
+    display: block;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_bottom>ul>li .banner_box span.white{
+    display: inline-block;
+}
+#gray_background #background_wrap .background_health .main_banner .main_banner_bottom>ul>li .banner_box .color{
+    color: #ffea00;
+}
+#gray_background #background_wrap .background_health .side_banner{
+    width: 29.8%;
+    height: 320px;
+    background-color: #fff;
+    border: 1px solid #e1e3e6;
+    border-radius: 20px 20px 55px;
+    position: relative;
+    float: right;
+    padding: 33px 39px 0;
+}
+#gray_background #background_wrap .background_health .side_banner .title{
+    font-size: 21px;
+    color: #3a3a4a;
+    display: inline-block;
+    margin-bottom: 19px;
+}
+#gray_background #background_wrap .background_health .side_banner .num{
+    float: right;
+}
+#gray_background #background_wrap .background_health .side_banner .num span{
+    font-size: 16px;
+    color: #3a3a4a;
+    font-family: 'NotoKr';
+}
+#gray_background #background_wrap .background_health .side_banner .num div{
+    display: inline-block;
+    margin-left: 20px;
+}
+#gray_background #background_wrap .background_health .side_banner .num .arrow{
+    width: 7px;
+    height: 12px;
+}
+#gray_background #background_wrap .background_health .side_banner .num .arrow.prev{
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/arrow-banner-l.png');
+}
+#gray_background #background_wrap .background_health .side_banner .num .arrow.next{
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/arrow-banner-r.png');
+}
+#gray_background #background_wrap .background_health .side_banner .num .stop{
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/slide-pause.png');
+    width: 10px;
+    height: 12px;
+}
+#gray_background #background_wrap .background_about{
+    overflow:auto; 
+    overflow-y: hidden;
+    margin-top: 62px;
+} 
+#gray_background #background_wrap .background_about>div{
+    width: 29.8%;
+    height: 370px;
+    float: left;
+    margin-left: 5.3%;
+}
+#gray_background #background_wrap .background_about .state .data,
+#gray_background #background_wrap .background_about .state .txt{
+    color: #6c6d73;
+    position: relative;
+    display: block;
+    line-height: 24px;
+    cursor: pointer;
+}
+#gray_background #background_wrap .background_about .state  .graph{
+    height: 180px;
+    padding-top: 50px;
+}
+#gray_background #background_wrap .background_about .state  .graph ul li{
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+}
+#gray_background #background_wrap .background_about .state  .graph ul li.on a{
+    border: 1px solid #44465c;
+    background-color: #44465c;
+    color: #fff;
+}
+#gray_background #background_wrap .background_about .state  .graph ul li:first-child a{
+    border-radius: 5px 0 0 5px;
+}
+#gray_background #background_wrap .background_about .state  .graph ul li:last-child a{
+    border-radius: 0 5px 5px 0;
+}
+#gray_background #background_wrap .background_about .state  .graph ul li a{
+    height: 40px;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 13px;
+    color: #44465c;
+    width: 100%;
+}
+#gray_background #background_wrap .background_about .state  .data::after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    left: 90px;
+    top: 7px;
+    height: 11px;
+    background-repeat: no-repeat;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/arrow/arrow-link-2.png');
+}
+#gray_background #background_wrap .background_about .state{
+    padding: 33px 39px 0;
+    background-color: #fff;
+    border-radius: 20px 20px 20px 55px;
+    border: 1px solid #e1e3e6;
+    position: relative;
+    margin-left: 0;
+}
+#gray_background #background_wrap .background_about .state .data{
+    line-height: 24px;
+}
+#gray_background #background_wrap .background_about .state .gr_img{
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+#gray_background #background_wrap .background_about .state .gr_img .danger{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    color: #057eb6;
+}
+#gray_background #background_wrap .background_about .intro>div{
+    padding: 33px 39px 0;
+    border: 1px solid #e1e3e6;
+    background-color: #fff;
+    height: 170px;
+}
+#gray_background #background_wrap .background_about .intro .top{
+    border-radius: 20px 55px 20px;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/bg-organization.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-bottom: 30px;
+}
+#gray_background #background_wrap .background_about p.title{
+    font-size: 21px;
+    color: #3a3a4a;
+    margin-bottom: 19px;
+}
+#gray_background #background_wrap .background_about .intro span.desc{
+    color: #6e7174;
+    line-height: 20px;
+}
+#gray_background #background_wrap .background_about .intro .bottom{
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/bg-center.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    border-radius: 55px 20px 20px;
+}
+#gray_background #background_wrap .background_about .banner{
+    padding: 33px 39px 0;
+    background-color: #fff;
+    border-radius: 20px 20px 55px;
+    border: 1px solid #e1e3e6;
+    position: relative;
+}
+#gray_background #background_wrap .background_about .banner .slick-list{
+    width: 100%;
+    position: relative;
+    height: 240px;
+    margin: 0 auto;
+}
+#gray_background #background_wrap .background_about .banner .slick{
+    width: 272px;
+}
+#gray_background #background_wrap .background_about .banner .num{
+    position: relative;
+    margin-bottom: 19px;
+}
+#gray_background #background_wrap .background_about .banner .num .title{
+    display: inline-block;
+    font-size: 21px;
+}
+#gray_background #background_wrap .background_about .banner .num .right{
+    float: right;
+    position: relative;
+    top: 2px;
+    padding-right: 82px;
+}
+#gray_background #background_wrap .background_about .banner .stop{
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    top: 3px;
+    right: 32px;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/slide-pause.png');
+}
+#gray_background #background_wrap .background_about .banner .slick-arrow{
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -0;
+    top: -45px;
+}
+#gray_background #background_wrap .background_about .banner .slick-arrow.slick-prev{
+    left: 210px;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/arrow-banner-l.png');
+}
+#gray_background #background_wrap .background_about .banner .slick-arrow.slick-next{
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/arrow-banner-r.png');
+}
+#gray_background #background_wrap .background_about .banner .slick-arrow::before{
+    display: none;
+}
+#gray_background #background_wrap .background_news{
+    margin-top: 62px;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/bg-news-hiwell.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    border: 1px solid #e1e3e6;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: auto;
+    padding: 39px;
+}
+#gray_background #background_wrap .background_news >div{
+    float: left;
+}
+#gray_background #background_wrap .background_news .title{
+    font-size: 21px;
+    color: #3a3a4a;
+    margin-bottom: 19px;
+}
+#gray_background #background_wrap .background_news .notice{
+    width: 56.4%;
+    margin-right: 3.4%;
+}
+#gray_background #background_wrap .background_news .notice .wrap{
+    width: calc(100%/2 - 10px);
+    background-color: #f6f6f6;
+    height: 110px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+}
+#gray_background #background_wrap .background_news .notice .wrap.left .text{
+    padding: 13px 23px 0;
+}
+#gray_background #background_wrap .background_news .notice .wrap.left .text .call{
+    font-size: 23px;
+}
+#gray_background #background_wrap .background_news .notice .wrap.left .text .word_call{
+    line-height: 24px;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+#gray_background #background_wrap .background_news .notice .wrap.left .text .time{
+    font-size: 15px;
+    color: #6e7174;
+    margin-bottom: 2px;
+}
+#gray_background #background_wrap .background_news .notice .wrap.left .text .time_desc{
+    color: #6e7174;
+    font-size: 12px;    
+}
+#gray_background #background_wrap .background_news .notice .wrap .icon{
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/i-customer-1.png');
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+#gray_background #background_wrap .background_news .notice .wrap.right{
+    margin-left: 20px;
+}
+#gray_background #background_wrap .background_news .notice .wrap.right .title{
+    margin: 30px 0 0 25px;
+    font-size: 16px;
+    color: #3a3a4a;
+}
+#gray_background #background_wrap .background_news .notice .wrap.right .icon{
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/i-customer-2.png');
+}
+#gray_background #background_wrap .background_news .news{
+    width: 21.6%;
+}
+#gray_background #background_wrap .background_news .news .wrap{
+    padding: 20px 0 20px 80px;
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/main/i-newsLetter.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    line-height: 24px;
+    color: #6c6d73;
+}
+#gray_background #background_wrap .background_news .app{
+    width: 18.6%;
+}
+#gray_background #background_wrap .background_news .app .wrap >div{
+    width: calc(100%/2 - 10px);
+    float: left;
+    text-align: center;
+}
+#gray_background #background_wrap .background_news .app .wrap >div:nth-child(2){
+    margin-left: 20px;
+}
+#gray_background #background_wrap .background_news .app .wrap >div .qr_code{
+    height: 90px;
+    margin-bottom: 6px;
+    background-color: #f4f1f0;
+    border-radius: 15px;
+}
+#gray_background #background_wrap .background_news .app .wrap >div .qr_code img{
+    margin-top: 15px;
+}

@@ -1,0 +1,151 @@
+#menu_modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 99;
+    overflow-y: scroll;
+    background-color: rgba(29,29,29,0.7);
+}
+#menu_modal .menu_wrap{
+    width: 1180px;
+    z-index: 100;
+    width: 90%;
+    height: 820px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+#menu_modal .menu_wrap .menu_wrap_top{
+    width: 100%;
+    padding: 0 30px;
+    background-color: #44465c;
+    font-size: 21px;
+    line-height: 72px;
+    color: #fff;
+    position: relative;
+}
+#menu_modal .menu_wrap .menu_wrap_top .close{
+    background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/icon/ico-close-2.png');
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    right: 20px;
+}
+#menu_modal .menu_wrap .link{
+    padding-right: 60px;
+    text-align: right;
+}
+#menu_modal .menu_wrap .link ul li{
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+#menu_modal .menu_wrap .link ul li:not(:first-child)::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 13px;
+    background-color: #e1e3e6;
+    top: 17px;
+    left: -15px;
+}
+#menu_modal .menu_wrap .link ul li a{
+    color: #3a3a4a;
+    font-size: 15px;
+    line-height: 48px;
+}
+#menu_modal .menu_wrap .menu_content{
+    height: 700px;
+    border-top: 1px solid #e1e3e6;
+    overflow-y: auto;
+    position: relative;
+}
+#menu_modal .menu_wrap .menu_content .menu_side{
+    float: left;
+    width: 220px;
+    height: 100%;
+    background-color: #f6f6f6;
+    padding-top: 30px;
+}
+#menu_modal .menu_wrap .menu_content .menu_side ul li{
+    display: block;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 42px;
+    cursor: pointer;
+}
+#menu_modal .menu_wrap .menu_content .menu_side ul li.color{
+    background-color: #ee0700;
+    color: #fff;
+}
+#menu_modal .menu_wrap .menu_content .menu_side ul li:hover{
+    background-color: #ee0700;
+    color: #fff;
+}
+#menu_modal .menu_wrap .menu_content .menu_right{
+    float: left;
+    width: calc(100% - 220px);
+    padding: 30px 60px;
+    overflow:auto; 
+    overflow-y: hidden;
+}
+#menu_modal .menu_wrap .menu_content .menu_right .menu_area h2{
+    display: block;
+    margin-bottom: 15px;
+    color: #3a3a4a;
+    font-size: 16px;
+}
+#menu_modal .menu_wrap .menu_content .menu_right .menu_area>ul{
+    border-bottom: 1px solid #bec2c8;
+    border-top: 2px solid #44465c;
+    margin-bottom: 45px;
+}
+#menu_modal .menu_wrap .menu_content .menu_right .menu_area>ul>li{
+    /* height: 54px; */
+    overflow: auto;
+    padding: 18px 10px 18px 0;
+    width: 100%;
+    color: #44465c;
+}
+#menu_modal .menu_wrap .menu_content .menu_right .menu_area>ul>li:not(:first-child){
+    border-top: 1px solid #e1e3e6;
+}
+#menu_modal .menu_wrap .menu_content .menu_right .menu_area>ul>li>a{
+    width: 170px;
+    float: left;
+}
+#menu_modal .menu_wrap .menu_content .menu_right .menu_area>ul>li>ul{
+    float: left;
+    width: calc(100% - 170px);
+}
+#menu_modal .menu_wrap .menu_content .menu_right .menu_area>ul>li>ul>li{
+    float: left;
+    width: 50%;
+}
+#menu_modal .menu_wrap .menu_content .menu_right .menu_area>ul>li>ul>li>a{
+    display: block;
+    padding: 3px 0 3px 10px;
+    color: #6c6d73;
+    position: relative;
+    cursor: pointer;
+}
+#menu_modal .menu_wrap .menu_content .menu_right .menu_area>ul>li>ul>li>a:hover{
+    color: #ee0700;
+    text-decoration: underline;
+}
+#menu_modal .menu_wrap .menu_content .menu_right .menu_area>ul>li>ul>li>a::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: #44465c;
+    top: 10px;
+    left: 0;
+    border-radius: 50%;
+}

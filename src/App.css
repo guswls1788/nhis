@@ -1,0 +1,64 @@
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') 
+  format('truetype');
+}
+body{
+  font-family: 'NanumBarunGothic';
+
+}
+#fix .right_side{
+  width: 40px;
+  position: fixed;
+  top: 260px;
+  right: 0;
+}
+#fix .right_side ul li{
+  background-color: #44465c;
+  width: 135px;
+  height: 40px;
+  right: 0;
+  position: relative;
+  line-height: 40px;
+  padding-left: 40px;
+  cursor: pointer;
+  transition: .3s;
+}
+#fix .right_side ul li:hover{
+  right: 78px;
+}
+#fix .right_side ul li:not(:first-child){
+  margin-top: 1px;
+}
+#fix .right_side ul li:nth-of-type(6){
+  line-height: 1.0;
+  padding-top: 2px;
+}
+#fix .right_side ul li:nth-of-type(6) span{
+  top: 10px;
+}
+#fix .right_side ul li a{
+  color: #fff;
+  font-size: 13px;
+}
+#fix .right_side ul li a span{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+#fix .top{
+  position: fixed;
+  bottom: 40px;
+  width: 40px;
+  height: 40px;
+  background-image: url('https://www.nhis.or.kr/_res/_common/ableu/images/btn/btn-direction-top.png');
+  right: 20px;
+  cursor: pointer;
+}

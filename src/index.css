@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'NBG','나눔바른고딕','Malgun Gothic','맑은 고딕',Dotum,'돋움',sans-serif;
+  src: url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+}
+*{
+  font-family: 'NBG','나눔바른고딕','Malgun Gothic','맑은 고딕',Dotum,'돋움',sans-serif;
+}
