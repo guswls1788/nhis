@@ -21,7 +21,7 @@ class Footer extends Component{
           $("#footer .footer_wrap .footer_wrap_top .footer_wrap_right .site_box ul li a").click(function(e){
               e.preventDefault()
               var idx = $(this).closest("div").parent().index()
-              var $site_a_attr=$(this).attr("href")
+          var $site_a_attr=$(this).attr("href")
               $("#footer .footer_wrap .footer_wrap_top .footer_wrap_right .site_area").eq(idx).children(".site_box").toggleClass("show")
               $("#footer .footer_wrap .footer_wrap_top .footer_wrap_right .site_area").eq(idx).children(".default").toggleClass("click")
               $("#footer .footer_wrap .footer_wrap_top .footer_wrap_right .site_area").eq(idx).children(".site").find("a").attr("href",$site_a_attr)
